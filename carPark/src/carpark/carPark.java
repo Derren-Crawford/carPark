@@ -20,11 +20,11 @@ public class carPark {
     }
     
     //adds a car to the car park
-    public void addCar(String regNo)
+    public void addCar(String regNo, String colour, String make, String model)
     {
-        car.add(new Car(regNo));
+        car.add(new Car(regNo, colour, make, model));
     }
-    
+        
     //checks if the given car reg is in the car park
     public boolean isInPark(String regNo)
     {

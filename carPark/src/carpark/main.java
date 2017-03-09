@@ -7,6 +7,13 @@ public class main {
 
      public static void main(String[] args) {
         
+        MainScreen gui = new MainScreen();
+        gui.pack();
+        gui.setVisible(true);
+        
+         
+         
+        /*
         //creates a new scanner object
         Scanner scanIn = new Scanner(System.in);
         
@@ -88,8 +95,8 @@ public class main {
             }
         }
         
-        
-        
+        scanIn.close();
+        */
          
     }
     
